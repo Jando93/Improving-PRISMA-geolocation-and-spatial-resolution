@@ -6,6 +6,6 @@ In particular, the study aimed at the enhancement of PRISMA spatial resolution b
 
 1) The first code block has been developed via Anaconda (Python v.3.7) (https://www.anaconda.com/). It is an optimized implementation of _COREG_local_ algorithm of AROSICS, in which a composite process for final tie points and a 2th order polynomial function have been integrated to the standard coregistration workflow.
    Mandatory requirements: numpy (https://numpy.org/), geopandas (https://geopandas.org/en/stable/), gdal (https://gdal.org/api/python_bindings.html), AROSICS (https://github.com/GFZ/arosics)
-   2) The second code block in based on MATLAB. It is iterative implementation of the HySure code (https://github.com/alfaiate/HySure/blob/master/src/data_fusion.m) for parameter tuning.
-      Mandatory requirements: HySure (https://github.com/alfaiate/HySure/tree/master)
+2) The second code block in based on MATLAB. It is iterative implementation of the HySure code (https://github.com/alfaiate/HySure/blob/master/src/data_fusion.m) for parameter tuning.
+   Mandatory requirements: HySure (https://github.com/alfaiate/HySure/tree/master)
       
