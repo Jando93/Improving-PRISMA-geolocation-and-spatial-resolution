@@ -1,4 +1,4 @@
-This repository contains the two main code blocks constituting the processing workflow for the improvement of geolocation accuracy and spatial resolution of PRISMA hyperspectral imagery (https://www.asi.it/scienze-della-terra/prisma/). It is part of the results of research activity carried out in framework of PRISCAV project by the Institute of BioEconomy (IBE) - National Reasearch Council of Italy (CNR) and represents official public data linked to the scientific paper titled
+This repository contains the two main code blocks constituting the processing workflow for the improvement of geolocation accuracy and spatial resolution of PRISMA hyperspectral imagery (https://www.asi.it/scienze-della-terra/prisma/). It is part of the results of research activity carried out in framework of PRISCAV project by the Institute of BioEconomy (IBE) - National Reasearch Council of Italy (CNR) and represents the official repository linked to the scientific paper
 
 "_De Luca, G., Carotenuto, F., Genesio, L., Pepe, M., Toscano, P., Boschetti, M., Miglietta, F., Gioli, B. Improving PRISMA hyperspectral spatial resolution and geolocation by using Sentinel2: development and test of an operational procedure in urban and rural areas. ISPRS Journal of Photogrammetry and Remote Sensing. Under Review_". 
 
@@ -6,6 +6,6 @@ In particular, the study aimed at the enhancement of PRISMA spatial resolution b
 
 1) The first code block has been developed via Anaconda (Python v.3.7) (https://www.anaconda.com/). It is an optimized implementation of _COREG_local_ algorithm of AROSICS, in which a composite process for final tie points and a 2th order polynomial function have been integrated to the standard coregistration workflow.
    Mandatory requirements: numpy (https://numpy.org/), geopandas (https://geopandas.org/en/stable/), gdal (https://gdal.org/api/python_bindings.html), AROSICS (https://github.com/GFZ/arosics)
-2) The second code block in based on MATLAB. It is zn iterative implementation of the HySure code (https://github.com/alfaiate/HySure/blob/master/src/data_fusion.m) for parameter tuning.
+2) The second code block in based on MATLAB. It is an iterative implementation of the HySure code (https://github.com/alfaiate/HySure/blob/master/src/data_fusion.m) for parameter tuning.
    Mandatory requirements: HySure (https://github.com/alfaiate/HySure/tree/master)
       
